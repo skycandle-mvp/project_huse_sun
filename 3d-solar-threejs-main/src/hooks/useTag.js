@@ -57,6 +57,25 @@ export const useTag = (threeObj) => {
         name: '7栋',
         position: new THREE.Vector3(-60.747, 61.667, 98.025),
       },
+      // 新增的建筑标签
+      {
+        className: 'tag',
+        modelName: 'xxx',
+        name: '8栋',
+        position: new THREE.Vector3(80.0, 78.213, 30.0), // 假设的坐标
+      },
+      {
+        className: 'tag',
+        modelName: 'xx',
+        name: '9栋',
+        position: new THREE.Vector3(-90.0, 60.0, 0.0), // 假设的坐标
+      },
+      {
+        className: 'tag',
+        modelName: 'xxx',
+        name: '10栋',
+        position: new THREE.Vector3(0.0, 85.0, -50.0), // 假设的坐标
+      }
     ]
 
     tagList.forEach(({ name, position, modelName, className }) => {
